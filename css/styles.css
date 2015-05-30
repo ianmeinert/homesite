@@ -1,0 +1,176 @@
+/***************************************************
+ Let's reset our elements
+****************************************************/
+
+* { outline: 0; }
+html, body { min-height: 100%;  }
+body, ul, ol, dl { margin: 0; }
+img { border: 0; }
+article, aside, audio, footer, header, nav, section, video { display: block }
+
+/**********************/
+
+@font-face {
+    font-family: 'hand_of_seanregular';
+    src: url('fonts/handsean-webfont.eot');
+    src: url('fonts/handsean-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/handsean-webfont.woff') format('woff'),
+         url('fonts/handsean-webfont.ttf') format('truetype'),
+         url('fonts/handsean-webfont.svg#hand_of_seanregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'harringtonplain';
+    src: url('fonts/harringt-webfont.eot');
+    src: url('fonts/harringt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/harringt-webfont.woff') format('woff'),
+         url('fonts/harringt-webfont.ttf') format('truetype'),
+         url('fonts/harringt-webfont.svg#harringtonplain') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'waiting_for_the_sunriseRg';
+    src: url('fonts/waiting_for_the_sunrise-webfont.eot');
+    src: url('fonts/waiting_for_the_sunrise-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/waiting_for_the_sunrise-webfont.woff') format('woff'),
+         url('fonts/waiting_for_the_sunrise-webfont.ttf') format('truetype'),
+         url('fonts/waiting_for_the_sunrise-webfont.svg#waiting_for_the_sunriseRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;	
+	background-color:#fff;
+	width:1024px;
+}
+
+body div {
+	margin-left:auto;
+	margin-right:auto;
+	width:768px;
+}
+
+a:hover img{
+	opacity:0.8;
+	filter:alpha(opacity=80); /* For IE8 and earlier */
+}
+
+header {
+	height:192px;
+	background-color:#004000;/*spring*/
+	/*background-color:#000060;/*winter*/
+	font-family:'harringtonplain';
+}
+
+header h1 {
+	padding-top:25px;	
+	text-align:center;
+	color:#fff;
+	font-size:36px;
+}
+
+header h2 {
+	margin-top:-25px;
+	text-align:center;
+	color:#fff;
+	font-size:20px;	
+}
+
+section {
+	height:500px;
+	border:1px solid #CFC;/*spring*/
+	background-color:#CFC;/*spring*/
+	/*border:1px solid #EAEAFF;/*winter*/
+	/*background-color:#EAEAFF;/*winter*/
+}
+
+section > article:first-of-type img {
+	display:block;
+	width:526px;
+	height:263px;
+	margin:-100px auto 15px auto;
+	border-radius:25px 25px 0 0;
+}
+section > article:nth-of-type(2) img {
+	height:130px;
+	width:130px;
+	padding: 4px;
+	border: solid 8px #008040;/*spring*/
+	/*border: solid 8px #3b5a93;/*winter*/
+	margin:15px 15px 15px 120px;
+	float:left;
+}
+
+section > article:nth-of-type(3) img {
+	height:154px;
+	width:340px;
+	margin:15px 120px 15px 15px;
+	float:right;
+}
+
+section > article:nth-of-type(4) img{
+	height:154px;
+	width:340px;
+	margin:15px 15px 15px 120px;
+	border-radius: 0 0 0 25px;
+	float:left;
+}
+
+section > article:last-of-type {
+	height:130px;
+	width:130px;
+	padding: 4px;
+	border: solid 8px #008040;/*spring*/
+	/*border: solid 8px #3b5a93;/*winter*/
+	border-radius: 0 0 25px 0;
+	margin:15px 120px 15px 15px;
+	float:right;
+}
+
+section > article:last-of-type article img {
+	border-radius: 0 0 15px 0;
+}
+
+footer {
+	margin-top:-12px;
+	height:150px;
+	background-color:#004000;/*spring*/
+	/*background-color:#000060;/*winter*/
+}
+
+nav {
+	width:450px;
+	clear:both;
+	margin:0 auto;
+}
+
+nav li {
+	display: block;
+	float:left;
+	font-size: 12px;
+	text-transform: capitalize;
+}
+
+nav li a {
+	text-decoration: none;
+	padding-right: 23px;
+	color: #fff;	
+	font-weight: bold;
+}
+nav li:last-of-type a{
+	padding-right:0px;
+}
+
+footer p{
+	padding-top:35px;
+	text-align:center;
+	font-size:10px;
+	color:#ccc;
+	clear:both;
+}
